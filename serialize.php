@@ -12,5 +12,5 @@ $relation=array();
 $reltype=$_POST['Realtionship'];
 $relation[$reltype]=$_POST['Relname']; 
 $reladata=serialize($relation);
-print_r($reladata) // you can insert this valiable into table field
+print_r($reladata) // you can insert this variable into table field
 ?>
